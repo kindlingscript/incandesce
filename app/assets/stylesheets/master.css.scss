@@ -1,7 +1,6 @@
 .navbar {
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 	border-radius: 0;
-	border-color: #533419;
 	box-shadow: 0px 1px 3px #2a2a2a;
 	background:url('wood.jpg');
 }
@@ -20,4 +19,39 @@
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover   {
     border-color: white;
+}
+
+.hero {
+	background: url('hero.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  height:370px;
+	  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  	margin: 0;
+}
+
+.frosty {
+	background: rgba(0,0,0, 0.5);
+	color: white;
+}
+
+.frosty h1 {
+	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 100;
+	text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 200;
+	text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.btn {
+	border-radius: 0;
 }
