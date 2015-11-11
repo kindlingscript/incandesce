@@ -9,6 +9,12 @@ gem 'bootstrap-sass', '~> 3.3.5'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# Use devise
+gem 'devise', '>= 3.2.4'
+
+# Use simple_form
+gem 'simple_form'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

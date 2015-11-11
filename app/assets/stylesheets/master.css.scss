@@ -56,8 +56,47 @@ h1, h2, h3, h4, h5, h6, .navbar {
 	border-radius: 0;
 }
 
+.btn-primary {
+	background-color: #f60;
+	color: white;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #eb5e00;
+	color: white;
+}
+
 body {
 	background: url('wood_1.png');
 	color: white;
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.booyah-box {
+    background: transparent;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: white;
+}
+
+button, input, optgroup, select, textarea {
+    color: black;
+    font: inherit;
+    margin: 0;
+}
+
+a {
+    color: #fc3;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #f60;
+	text-decoration: none;
 }
