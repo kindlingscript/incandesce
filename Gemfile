@@ -15,6 +15,9 @@ gem 'devise', '>= 3.2.4'
 # Use simple_form
 gem 'simple_form'
 
+# Use factorygirl
+gem 'factory_girl_rails', "~> 4.0"
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
