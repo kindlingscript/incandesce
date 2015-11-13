@@ -60,11 +60,13 @@ h1, h2, h3, h4, h5, h6, .navbar {
 	background-color: #f60;
 	color: white;
 	border: none;
+	border-color: #f60;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active:focus {
 	background-color: #eb5e00;
 	color: white;
+	border-color: #eb5e00;
 }
 
 body {
@@ -96,7 +98,17 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:focus {
 	color: #f60;
 	text-decoration: none;
+}
+
+
+
+.field_with_errors {
+	color: white;
+	background-color: firebrick;
+	border-radius: 5px;
+	padding: 8px;
+	margin: 10px;
 }
