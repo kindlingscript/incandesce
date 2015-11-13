@@ -4,6 +4,7 @@ Incandesce::Application.routes.draw do
   namespace :instructor do
     resources :courses, :only => [:new, :create, :show]
   end
+  resources :courses, :only => [:index, :show]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
