@@ -12,8 +12,17 @@ gem 'pg'
 # Use devise
 gem 'devise', '>= 3.2.4'
 
+# Use figaro
+gem 'figaro'
+
+# Use fog to communicate with Amazon S3
+gem 'fog', '~> 1.3.1'
+
 # Use simple_form
 gem 'simple_form'
+
+# Use carrierwave
+gem 'carrierwave'
 
 # Use factorygirl
 gem 'factory_girl_rails', "~> 4.0"

@@ -1,6 +1,7 @@
 class Course < ActiveRecord::Base
 	belongs_to :user
 	has_many :sections, :order => 'created_at ASC'
+	mount_uploader :image, ImageUploader
 
 	validates :title, :presence => { :message => "Course title is required" }
 	validates :description, :presence => { :message => "Description is required"}
