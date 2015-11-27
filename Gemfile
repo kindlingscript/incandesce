@@ -18,6 +18,9 @@ gem 'figaro'
 # Use fog to communicate with Amazon S3
 gem 'fog', '~> 1.3.1'
 
+# Use minimagick for images
+gem 'mini_magick', '~> 4.3.1'
+
 # Use simple_form
 gem 'simple_form'
 
