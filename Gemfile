@@ -15,8 +15,8 @@ gem 'devise', '>= 3.2.4'
 # Use figaro
 gem 'figaro'
 
-# Use fog to communicate with Amazon S3
-gem 'fog', '~> 1.3.1'
+# Use carrierwave-aws to communicate with Amazon S3
+gem 'carrierwave-aws'
 
 # Use minimagick for images
 gem 'mini_magick', '~> 4.3.1'
