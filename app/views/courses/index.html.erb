@@ -7,9 +7,9 @@
 	<% @courses.each do |course| %>
 		<h3 class="text-center"><%= link_to course.title, course_path(course) %></h3>
 		<br />
-		<%= image_tag course.image, :class => 'img-responsive' %>
+		<%= image_tag course.image, :class => 'img-responsive image-center' %>
 		<br />
-		<div class="col-sm-8 col-xs-12">
+		<div class="col-sm-8 col-xs-12 text-center">
 			<%= course.description %>
 		</div>
 		<div class="col-sm-4 col-xs-12 text-center">
