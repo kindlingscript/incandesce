@@ -15,6 +15,9 @@ gem 'devise', '>= 3.2.4'
 # Use figaro
 gem 'figaro'
 
+# Use stripe for payments
+gem 'stripe'
+
 # Use carrierwave-aws to communicate with Amazon S3
 gem 'carrierwave-aws'
 
