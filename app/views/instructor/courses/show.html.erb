@@ -10,21 +10,29 @@
 		<%= link_to 'Add new section', new_instructor_course_section_path(current_course), :class => 'btn btn-primary btn-lg' %>
 	</div>
 
-	<ul>
+	<div class="col-xs-12">
 		<% current_course.sections.each do |section| %>
-			<li>
-				<%= section.title %>
-				<%= link_to 'New lesson', new_instructor_section_lesson_path(section), :class => 'pull-right btn btn-primary btn-xs' %>
-				<br class="clr" />
-				<ul>
-					<% section.lessons.each do |lesson| %>
-					<li>
-						<b><%= lesson.title %></b>
-						<%= lesson.subtitle %>
-					</li>
-				<% end %>
-				</ul>
-			</li>
+			<br /><br />
+			<div class="section">
+				<h3>
+					<%= section.title %>
+				</h3>
+				<%= link_to 'New lesson', new_instructor_section_lesson_path(section), :class => 'pull-right btn btn-primary' %>
+				<br />
+				<% section.lessons.rank(:row_order).each do |lesson| %>
+					<div class="col-xs-12 col-sm-6">
+						<div class="lesson text-center">
+							<br />
+								<%= link_to lesson_path(lesson) do %>
+									<b><%= lesson.title %></b>
+									<br />
+									<%= lesson.subtitle %>
+								<% end %>
+							</div>
+						</div>
+					<% end %>
+				<div class="clearfix"></div>
+			</div>
 		<% end %>
-	</ul>
+	</div>
 </div>

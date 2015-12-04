@@ -9,7 +9,7 @@ gem 'bootstrap-sass', '~> 3.3.5'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
-# Use devise
+# Use devise for users
 gem 'devise', '>= 3.2.4'
 
 # Use figaro
@@ -17,6 +17,9 @@ gem 'figaro'
 
 # Use stripe for payments
 gem 'stripe'
+
+# Use ranked-model
+gem 'ranked-model'
 
 # Use carrierwave-aws to communicate with Amazon S3
 gem 'carrierwave-aws'
