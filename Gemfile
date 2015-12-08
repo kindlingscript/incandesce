@@ -24,6 +24,9 @@ gem 'ranked-model'
 # Use carrierwave-aws to communicate with Amazon S3
 gem 'carrierwave-aws'
 
+# Use jQuery UI
+gem 'jquery-ui-rails'
+
 # Use minimagick for images
 gem 'mini_magick', '~> 4.3.1'
 

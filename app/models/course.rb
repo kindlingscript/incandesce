@@ -1,6 +1,6 @@
 class Course < ActiveRecord::Base
 	belongs_to :user
-	has_many :sections, :order => 'created_at ASC'
+	has_many :sections
 	has_many :enrollments
 	mount_uploader :image, ImageUploader
 
