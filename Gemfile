@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 
 # Use Bootstrap 3
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '~> 3.3.5.1'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -33,6 +33,9 @@ gem 'mini_magick', '~> 4.3.1'
 # Use simple_form
 gem 'simple_form'
 
+# Use sprockets (glyphicon fix)
+gem 'sprockets', '2.11.0'
+
 # Use carrierwave
 gem 'carrierwave'
 
@@ -40,7 +43,7 @@ gem 'carrierwave'
 gem 'factory_girl_rails', "~> 4.0"
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
