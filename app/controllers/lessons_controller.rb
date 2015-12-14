@@ -12,6 +12,11 @@ class LessonsController < ApplicationController
 		@current_lesson ||= Lesson.find(params[:id])
 	end
 
+	helper_method :current_course
+	def current_course
+		@current_course = current_lesson.section.course
+	end
+
 	def require_enrolled_in_current_course
 		if current_user.enrolled_in?(current_lesson.section.course) == false
 			redirect_to course_path(current_lesson.section.course), :alert => 'You need to enroll first'
