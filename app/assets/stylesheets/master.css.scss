@@ -13,7 +13,7 @@
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #fc3;
+    color: white;
     text-shadow: 2px 2px #000;
 }
 
@@ -38,6 +38,13 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .frosty {
 	background: rgba(0,0,0, 0.5);
 	color: white;
+}
+
+.frosty-features {
+	background: rgba(0,0,0, 0.5);
+	color: white;
+	height: 400px;
+	margin-top: 35px;
 }
 
 .frosty h1 {
@@ -205,4 +212,8 @@ ul .header .glyphicon {
 	border-bottom: 2px white dashed;
     display: inline;
     padding-bottom: 5px;
+}
+
+.feat {
+	padding-bottom: 15px;
 }

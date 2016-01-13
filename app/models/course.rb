@@ -15,4 +15,8 @@ class Course < ActiveRecord::Base
 	def premium?
 		! free?
 	end
+
+	def self.random(number)
+		order("RANDOM()").sample(number)
+	end
 end
